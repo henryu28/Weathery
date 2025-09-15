@@ -1,0 +1,37 @@
+@use '../variables/variables' as *;
+
+.Settings {
+    display: flex;
+    font-size: 1.25rem;
+
+    .theme-toggler {
+        $size: 25px;
+        .theme-buttons {
+            cursor: pointer;
+
+            display: flex;
+            position: relative;
+            height: $size;
+            width: $size;
+            overflow: hidden;
+
+            .light-theme-btn,
+            .dark-theme-btn {
+                position: absolute;
+                top: $size;
+                transition: top 0.5s ease-in-out;
+                &.active {
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    .settings-btn {
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+
+    
+
+}

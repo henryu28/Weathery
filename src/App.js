@@ -1,12 +1,17 @@
-
+import Header from "./components/Header"
+import Main from "./components/Main"
+import './styles/components/App.scss'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 function App() {
+  const dark = true
+
   return (
-    <div className="App">
-      <h1>Happy Coding!</h1>
-      <h2>ReactJS Weather App</h2>
+    <div className={`App-${dark ? 'dark' : 'light'}`}>
+      <Header />
+      <Main />
     </div>
   );
 }
 
-export default App;
+export default App
