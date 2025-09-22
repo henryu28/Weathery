@@ -1,0 +1,32 @@
+{
+  "lat": "33.95621N",
+  "lon": "83.98796W",
+  "elevation": 1066,
+  "timezone": "America/New_York",
+  "units": "us",
+  "current": {
+    "icon": "mostly_cloudy",
+    "icon_num": 29,
+    "summary": "Mostly cloudy",
+    "temperature": 72.7,
+    "feels_like": 72.2,
+    "wind_chill": 74.9,
+    "dew_point": 55.1,
+    "wind": {
+      "speed": 4.6,
+      "gusts": 7.9,
+      "angle": 109,
+      "dir": "ESE"
+    },
+    "precipitation": {
+      "total": 0,
+      "type": "none"
+    },
+    "cloud_cover": 62,
+    "ozone": 281.91,
+    "pressure": 30.08,
+    "uv_index": 0,
+    "humidity": 54,
+    "visibility": 15
+  }
+}
